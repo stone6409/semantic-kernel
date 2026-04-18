@@ -18,10 +18,10 @@ namespace SemanticKernelDemo.DeepSeek
         public static async Task Run(string[] args)
         {
             // Populate values from your OpenAI deployment
-            var modelId = "deepseek-v3";
-            //var endpoint = "https://api.lkeap.cloud.tencent.com/v1/";
-            var endpoint = "https://api.lkeap.cloud.tencent.com";
-            var apiKey = "sk-L7hpFlDbWTfRYVVTFHVsukGrS11BzRExwjYcTZCzeHs0AQyi";
+            var modelId = "deepseek-v3.2";
+            var endpoint = "https://api.lkeap.cloud.tencent.com/v1/";
+            //var endpoint = "https://api.lkeap.cloud.tencent.com";
+            var apiKey = "sk-wmB6hPEF7KTGXe7OyKm8jAnjJqE9jAIkejENjq7XazRr1dBh";
 
 #pragma warning disable SKEXP0010 // Type is for evaluation purposes only and is subject to change or removal in future updates. Suppress this diagnostic to proceed.
             OpenAIChatCompletionService chatCompletionService = new OpenAIChatCompletionService(
