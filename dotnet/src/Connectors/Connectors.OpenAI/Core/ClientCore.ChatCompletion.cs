@@ -301,6 +301,7 @@ internal partial class ClientCore
                             throw;
                         }
 
+                        // 关键点：从AI模型回复中读取报文
                         StreamingChatCompletionUpdate chatCompletionUpdate = responseEnumerator.Current;
                         metadata = GetChatCompletionMetadata(chatCompletionUpdate);
                         streamedRole ??= chatCompletionUpdate.Role;
